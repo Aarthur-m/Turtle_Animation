@@ -1,0 +1,166 @@
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+
+.fa-twitter {
+    color: #1DA1F2;
+}
+
+.fa-instagram { 
+    color: #d62976;
+}
+
+
+/* HEADER */
+
+header {
+    color: #00ff7f;
+    background-color: #262626;
+    text-align: center;
+    border-bottom: 2px #404040 solid;
+}
+
+header h1, h2 {
+    padding: 10px;
+}
+
+header h1 {
+    color: #bf80ff;
+}
+
+/* CADASTRO */
+
+.cadastro {
+    background-image: linear-gradient(#bf80ff,  #00ff7f);
+    width: 100%;
+    padding: 50px;
+}
+
+.content {
+    color:  #00ff7f;
+    background-color: #262626;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    padding: 30px 70px;
+    margin: 0 33%;
+    border: 2px #404040 solid;
+    border-radius: 10px;
+}
+
+.cadastro h3 {
+    font-size: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 5px;
+}
+
+.fa-user-circle, .fa-lock, .fa-user-secret, .fa-envelope {
+    background-color: #bf80ff;
+    color: #262626;
+    height: 35px;
+    width: 35px;
+    border-radius: 5px 0px 0px 5px;
+    line-height: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+form input[type="text"] {
+    height: 35px;
+    width: 215px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 0 0 0 5px;
+}
+
+form input[type="submit"] {
+    padding: 10px;
+    color: #bf80ff;
+    font-weight: bold;
+    background-color: #262626;
+    border: 1px #bf80ff solid ;
+    border-radius: 5px;
+    width: 250px;
+    margin: 0 0 15px 5px;
+}
+
+form input[type="submit"]:hover {
+    color: #262626;
+    font-weight: bold;
+    background-image: linear-gradient(#bf80ff,  #00ff7f);
+    padding: 11px 0px 11px 0px;
+    border: none;
+}
+
+.opcao {
+    margin-top: 15px;
+}
+
+.opcao a {
+    color: #00ff7f;
+    padding: 0 15px 0 10px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color:  #262626;
+    padding: 5px;
+    border-top: 2px #404040 solid;
+    color: whitesmoke;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    float: left;
+    text-align: center;
+    list-style: none;
+}
+
+.info li {
+    margin: 5px 0;
+}
+
+.info a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.dr {
+    display: inline-flex;
+    align-items: center;
+}
+
+.media-sociais {
+    float: right;
+    display: inline-flex;
+    align-items: center;
+}
+
+.media-sociais li {
+    margin: 0 10px;
+    font-size: 20px;
+    display: inline-block;
+}
